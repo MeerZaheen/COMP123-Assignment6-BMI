@@ -48,14 +48,14 @@
             this.BMIGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
-            // UnitsGroupBox
+            // Units
             // 
             this.Units.Controls.Add(this.ImperialRadioButton);
             this.Units.Controls.Add(this.MetricRadioButton);
             this.Units.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Units.Location = new System.Drawing.Point(61, 40);
             this.Units.Margin = new System.Windows.Forms.Padding(2);
-            this.Units.Name = "UnitsGroupBox";
+            this.Units.Name = "Units";
             this.Units.Padding = new System.Windows.Forms.Padding(2);
             this.Units.Size = new System.Drawing.Size(167, 59);
             this.Units.TabIndex = 2;
@@ -103,9 +103,9 @@
             this.HeightLabel.Location = new System.Drawing.Point(23, 161);
             this.HeightLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.HeightLabel.Name = "HeightLabel";
-            this.HeightLabel.Size = new System.Drawing.Size(95, 20);
+            this.HeightLabel.Size = new System.Drawing.Size(87, 20);
             this.HeightLabel.TabIndex = 4;
-            this.HeightLabel.Text = "Height (cm):";
+            this.HeightLabel.Text = "Height (m):";
             // 
             // WeightLabel
             // 
@@ -284,4 +284,3 @@
         private System.Windows.Forms.Label ObesityLabel;
     }
 }
-
